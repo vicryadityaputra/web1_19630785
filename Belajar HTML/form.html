@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Pendaftaran</title>
+</head>
+<form>
+    <form action="proses.php" method="post"></form>
+        <label>Nama Lengkap:</label>
+        <input type="text" name="nama" id="nama">
+        <br>
+        <label>Jenis Kelamin</label>
+        <input type="radio" name="jen_kel" value="L" checked>Laki-Laki
+        <input type="radio" name="jen_kel" value="P" checked>Perempuan
+        <br>
+        <label>Hobi:</label>
+        <input type="checkbox" name="hobi" value="Sepakbola">Sepakbola
+        <input type="checkbox" name="hobi" value="Memancing">Memancing
+        <input type="checkbox" name="hobi" value="Gowes">Gowes
+        <input type="checkbox" name="hobi" value="Menyanyi">Menyanyi
+        <input type="checkbox" name="hobi" value="Lainnya">Lainnya
+        <br>
+        <label>Asal Daaerah:</label>
+        <select name="asal">
+            <option value="Banjarmasin">Banjarmasin</option>
+            <option value="Banjarbaru">Banjarbaru</option>
+            <option value="Palangkaraya">Palangkaraya</option>
+        </select>
+        <br>
+        <label>Kata Kunci:</label>
+        <input type="password" name="password">
+        <br>
+        <label>Pesan dan Kesan:</label>
+        <textarea name="pesankesan" cols="30" rows="5">
+            Isikan pesan dan kesan anda
+        </textarea>
+        <br>
+        <input type="submit" value="Kirim Data">
+    </form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+}
+ 
+.kotak{
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    margin: 20px;
+    color: #ffffff;
+    float: left;
+}
+ 
+.biru {
+    background-color: skyblue;
+}
+ 
+.lavender {
+    background-color:lavender;
+}
+ 
+.merahmuda {
+    background-color: pink;
+    color: #7c7777;
+}
+ 
+.jingga{
+    background-color: orange;
+}
